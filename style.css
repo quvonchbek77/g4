@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    max-width: 1220PX;
+    margin: 0 auto;
+
+}
+header{
+    padding: 46px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+ul li a{
+    text-decoration: none;
+    color: grey;
+
+}
+ul li a:hover{
+    color: black;
+    font-weight: 700;
+
+}
+.hero{
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    gap: 131px;
+
+}
+h1{
+font-size: 45px;
+font-weight: 700;
+line-height: 56px;
+}
+.hero p{
+font-size: 19px;
+font-weight: 300;
+line-height: 32px;
+color: #7D7987;
+margin: 30px 0;
+
+}
+.btn{
+font-size: 18px;
+font-weight: 700;
+line-height: 22.59px;
+padding: 16px 51px;
+background-color: white;
+border-radius: 30px;
+border: 1.4px solid #458FF6
+
+
+
+}
+.btn:hover{
+    background-color: #458FF6
+}
+.services{
+    padding: 50px 0;
+    
+}
+.services h2{
+font-size: 40px;
+text-align: center;
+    
+}
+.services p{
+    max-width: 640px;
+    margin: 20px auto;
+    text-align: center;
+
+}
+.card{
+    width: 380px;
+    height: 380px;
+    background: #E7E7E7;
+    border-radius: 20px;
+    padding: 71px 39px;
+
+
+}
+.card p{
+    margin: 0;
+
+    text-align: left;
+
+
+}
+.card h3{
+    margin: 15px;
+
+}
+.ota{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+}
+.card:hover{
+    background: #5A98F2;
+
+
+
+}
+.p{
+    color: #7D7987;
+    
+}
+.art{
+    padding: 50px 0;
+
+}
+.art h2{
+text-align: center;
+font-size: 36px;
+margin-bottom: 30px;
+
+}
+.card2{
+    width: 380px;
+
+border: 1px solid gray;
+border-radius: 20px;
+padding-bottom: 30px;
+
+}
+.card2 h3 p a{
+    margin: 30px;
+
+}
+.article{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.card2 a{
+    color: #4089ED;
+    text-decoration: none;
+
+}
+.card2 a::after{
+    content: url("./img/Vector.png");
+    margin-left: 15px;
+
+}
+footer{
+    padding: 100px 0;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    color: white;
+    text-align: left;
+
+
+}
+footer .container{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+footer p{
+    text-align: left;
+    margin: 10px;
+
+
+}
+.pp{
+    width: 350px;
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+   
+}
